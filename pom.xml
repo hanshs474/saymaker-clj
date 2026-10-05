@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.hanshs474</groupId>
+  <artifactId>saymaker-clj</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+  <name>saymaker-clj</name>
+  <description>Generate images and video from Clojure on SayMaker: Veo 3.1, Kling 3.0, Seedance 2.0, Nano Banana 2 and more with one API key.</description>
+  <url>https://saymaker.ai/?utm_source=clojars&amp;utm_medium=package</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/hanshs474/saymaker-clj</url>
+    <connection>scm:git:https://github.com/hanshs474/saymaker-clj.git</connection>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.11.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.hanshs474</groupId>
+      <artifactId>saymaker</artifactId>
+      <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
